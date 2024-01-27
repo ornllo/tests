@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Alata:300,400');
+@import url('https://fonts.googleapis.com/css?family=Honk:300,400');
+
+@font-face {
+    font-family: "Alata-Regular";
+    src: url(fonts/Alata-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: Alata;
+    color: #777;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: 1em;
+    color: rgb(148, 48, 41);
+    text-decoration: none;
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgb(223, 185, 204);
+}
+
+.main-nav li {
+    padding: 0 5%;
+}
+
+.nav a:hover {
+    background-color: rgba(225, 225, 225, .3);
+}
+.main-header {
+    background-color: rgba(248, 214, 214, 0.6);
+    background-image: url("images/detailed_hand_painted_pink_watercolour_background_0509.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 30px;
+}
+
+.girl-name {
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-family: Honk;
+    font-weight: normal;
+}
+
+.band-name-large {
+    font-size: 8em;
+}
+
+.content-section {
+    margin: 1em;
+    background-color: rgba(248, 214, 214, 0.6);
+
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.section-header {
+    font-family: Alata;
+    font-weight: normal;
+    color:rgb(148, 48, 41);
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.about-girl-image {
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin: 15px;
+    border-radius: 50%;
+}
+
+.about-girl-description {
+    text-align: justify;
+    color:rgb(148, 48, 41);
+}
+
+.about-girl-description2 {
+    text-align: justify;
+    color:rgb(148, 48, 41);
+}
+
+.main-footer {
+    background-color: rgb(241, 188, 197);
+    padding: .25em 0;
+}
+
+.main-footer-container {
+    align-items: center;
+    
+}
+
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: end;
+}
+
+.footer-nav li {
+    padding: 0 .5em;
+}
+
+.footer-nav img {
+    width: 30px;
+    height: 30px;
+}
